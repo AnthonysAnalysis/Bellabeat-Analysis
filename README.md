@@ -616,7 +616,7 @@ waffle(waffle_data,
        legend_pos = "right")
 ```
 
-![](RMarkdownBella_files/figure-markdown_github/Daily%20Device%20Usage%20Frequency%20Waffle-1.png)
+![](https://github.com/AnthonysAnalysis/Data-Analytics-Portfolio/blob/main/Images/1.png)
 
 -   The majority of our sample participants have engaged with their
     device at least once per day throughout our study period, most
@@ -654,7 +654,7 @@ ggplot(data = na.omit(daily_activity), aes(x = Calories, y = TotalDistance)) +
 
     ## `geom_smooth()` using formula = 'y ~ x'
 
-![](RMarkdownBella_files/figure-markdown_github/Calories%20vs%20Distance%20graph-1.png)
+![](https://github.com/AnthonysAnalysis/Data-Analytics-Portfolio/raw/main/Images/2.png)
 
 -   The general trend here is that there is a positive correlation
     between total daily distance walked and daily calories burned. We
@@ -677,7 +677,7 @@ ggplot(average_sleep_per_day, aes(x = day_of_week, y = average_sleep_time, fill 
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
 ```
 
-![](RMarkdownBella_files/figure-markdown_github/Sleep%20time%20per%20day%20graph-1.png)
+![](https://github.com/AnthonysAnalysis/Data-Analytics-Portfolio/raw/main/Images/3.png)
 
 -   It looks like people sleep slightly more on the weekend on average.
     This is expected as people are recovering from the workweek and tend
@@ -703,7 +703,7 @@ ggplot(average_hourly_calories, aes(x = hour_of_day, y = average_calories, fill 
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
 ```
 
-![](RMarkdownBella_files/figure-markdown_github/Hourly%20calories%20burned%20graph-1.png)
+![](https://github.com/AnthonysAnalysis/Data-Analytics-Portfolio/raw/main/Images/4.png)
 
 -   The most active hours of the day are during the waking hours.
 -   Most people wake up around 6-7am for the day, with the calories
@@ -736,7 +736,7 @@ ggplot(average_hourly_intensity_by_weekend_weekday, aes(x = hour_of_day, y = mea
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
 ```
 
-![](RMarkdownBella_files/figure-markdown_github/Hourly%20intensity%20chart-1.png)
+![](https://github.com/AnthonysAnalysis/Data-Analytics-Portfolio/raw/main/Images/5.png)
 
 -   People have different schedules/routines on the weekend vs weekday.
 -   We can take this into consideration when designing our app features.
@@ -760,7 +760,7 @@ ggplot(daily_activity, aes(x = TotalDistance, y = Calories)) +
 
     ## `geom_smooth()` using formula = 'y ~ x'
 
-![](RMarkdownBella_files/figure-markdown_github/Distance%20Calories%20graph-1.png)
+![](https://github.com/AnthonysAnalysis/Data-Analytics-Portfolio/raw/main/Images/6.png)
 
 ``` r
 steps_calories_model <- lm(Calories ~ TotalSteps, data = daily_activity)
@@ -781,7 +781,7 @@ ggplot(daily_activity, aes(x = TotalSteps, y = Calories)) +
 
     ## `geom_smooth()` using formula = 'y ~ x'
 
-![](RMarkdownBella_files/figure-markdown_github/Steps%20Calories%20Graph-1.png)
+![](https://github.com/AnthonysAnalysis/Data-Analytics-Portfolio/raw/main/Images/7.png)
 
 -   Both these metrics have similar predictive correlations for calories
     burned.
@@ -805,7 +805,7 @@ ggplot(daily_activity, aes(x = TotalSteps, y = TotalDistance)) +
 
     ## `geom_smooth()` using formula = 'y ~ x'
 
-![](RMarkdownBella_files/figure-markdown_github/unnamed-chunk-1-1.png)
+![](https://github.com/AnthonysAnalysis/Data-Analytics-Portfolio/raw/main/Images/8.png)
 
 -   Both daily steps and total distance are a good predictor for daily
     calories burned.
@@ -844,7 +844,7 @@ ggplot(average_hourly_steps_intensity_merged, aes(x = hour)) +
   theme(legend.title = element_blank())
 ```
 
-![](RMarkdownBella_files/figure-markdown_github/Hourly%20Steps%20Intensity%20graph-1.png)
+![](https://github.com/AnthonysAnalysis/Data-Analytics-Portfolio/raw/main/Images/9.png)
 
 -   Both hourly steps and intensity follow a similar trend of ramping up
     mid-day.
@@ -872,7 +872,7 @@ ggplot(percent_sleep_pie, aes(x = "", y = percentage, fill = category)) +
             color = "black", size = 6)
 ```
 
-![](RMarkdownBella_files/figure-markdown_github/Time%20in%20bed%20chart-1.png)
+![](https://github.com/AnthonysAnalysis/Data-Analytics-Portfolio/raw/main/Images/10.png)
 
 -   Here we have percent time spent sleeping as a function of total time
     spent in bed, on average between all individual users.
