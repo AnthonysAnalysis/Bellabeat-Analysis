@@ -21,7 +21,7 @@ analysis process:
 
 **Ask, prepare, process, analyze, share, and act.**
 
-# **Ask:**
+# **Ask -**
 
 Business task:
 
@@ -31,7 +31,7 @@ analysis and acquire some insight into this smart device’s usage. Then,
 figure out how to apply these insights into our own products to drive
 Bellabeat’s marketing strategy via data-driven decision making.
 
-# **Prepare:**
+# **Prepare -**
 
 Datasource: Our dataset is the Fitbit Fitness Tracker Dataset (CC0:
 Public Domain), via Mobius.
@@ -71,7 +71,7 @@ the larger the better. For most of our data, we are barely at the bare
 minimum so insight might not be able to be extrapolated strongly to a
 larger population or timeframe.
 
-# **Process**
+# **Process -**
 
 Analysis will be carried out in programming language R, in Posit Cloud
 due to ease of use for statistical computing, data visualization, and
@@ -469,7 +469,9 @@ n_distinct(daily_activity_sleep$Id)
 Here we are creating a newly merged data frame for one of our analyses
 that we are going to run.
 
-# **Analyze & Share:**
+
+# **Analyze & Share -**
+
 
 ## Basic overview summary:
 
@@ -885,7 +887,9 @@ ggplot(percent_sleep_pie, aes(x = "", y = percentage, fill = category)) +
     focus on trying to sleep if they want to hit their scheduled hours
     of sleep goal, for those who need or want it.
 
-# **Act:**
+
+# **Act -**
+
 
 ## Recommendations & final thoughts:
 
